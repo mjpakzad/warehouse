@@ -5,5 +5,7 @@
     "Warehouse": "انبار",
     "products.json file": "فایل products.json",
     "articles.json": "فایل articles.json",
-    "Process": "پردازش"
+    "Process": "پردازش",
+    "Error": "خطا",
+    "The articles file is invalid.": "فایل articles ساختار مناسبی ندارد."
 }

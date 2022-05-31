@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\AppRequest;
 use Illuminate\Http\Request;
 
 class AppController extends Controller
@@ -17,11 +18,12 @@ class AppController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Process products and articles json files.
      *
+     * @param  \App\Http\Requests\AppRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function process(AppRequest $request)
     {
         //
     }
