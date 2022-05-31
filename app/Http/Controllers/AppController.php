@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\AppRequest;
+use App\Utilities\Assembler;
 use Illuminate\Http\Request;
 
 class AppController extends Controller
@@ -25,6 +26,11 @@ class AppController extends Controller
      */
     public function process(AppRequest $request)
     {
-        //
+        $assembler = new Assembler($request->all());
+        $assembler->build();
+        return view('app.result', [
+            'products'  => $assembler->products(),
+            'articles'  => $assembler->articles(),
+        ]);
     }
 }

@@ -9,6 +9,7 @@
     <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" crossorigin="anonymous">
     <meta name="theme-color" content="#563d7c">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    @yield('styles')
 </head>
 <body>
 @yield('content')
