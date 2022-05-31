@@ -6,7 +6,7 @@
     <meta name="description" content="Warehouse software that offers products and their quantity based on inventory and maximum profit">
     <meta name="author" content="Mojtaba Pakzad">
     <title>{{ __('Warehouse web application') }}</title>
-    <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" crossorigin="anonymous">
     <meta name="theme-color" content="#563d7c">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
